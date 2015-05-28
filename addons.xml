@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.roggerstream" name="Rogger Stream" version="1.0.7" provider-name="Rogger, Cleiton Leonel Creton">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="defaut.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Lista de canais IPTV by Rogger</summary>
+    <description lang="en">Assista a vÃ¡rios canais transmitidos pela internet diretamente no Kodi</description>
+	<platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="rogger.repository" name="rogger repository" version="0.0.2" provider-name="rogger2">
 	<extension point="xbmc.addon.repository" name="rogger Add-on Repository">
 		<info compressed="false">http://raw.github.com/rogger2/rogger.repository/master/addons.xml</info>
