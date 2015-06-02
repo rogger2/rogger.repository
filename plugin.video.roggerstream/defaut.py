@@ -21,7 +21,7 @@ from BeautifulSoup import BeautifulSoup
 h = HTMLParser.HTMLParser()
 
 
-versao = '1.0.7'
+versao = '1.0.8'
 addon_id = 'plugin.video.roggerstream'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 addonfolder = selfAddon.getAddonInfo('path')
@@ -48,6 +48,7 @@ def  categorias():
 	addDir('CANAIS HD','https://copy.com/VMoOgU8UDvAgfjv0?download=1',6,'http://www.weddingsipa.com/images/new_hd_logo.jpg')
 	addDir('MÚSICAS E VIDEOCLIPES','https://copy.com/1cvRyOdMSOCSBH70?download=1',6,'http://www.aitechautomacao.com.br/images/musica.png')
 	addDir('ESPORTES INTERNACIONAIS','https://copy.com/bIIpBHwFbXMXOBBB?download=1',6,'http://s.glbimg.com/es/ge/f/original/2012/03/05/mascote_esporte_todos.jpg')
+	addDir('RÁDIOS','https://copy.com/znUclLey0qF30gSd?download=1',6,'http://s.glbimg.com/po/tt/f/original/2013/10/21/011787436-radio-station-microphone.jpeg')
 	
 	
 
