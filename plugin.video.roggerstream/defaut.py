@@ -21,7 +21,7 @@ from BeautifulSoup import BeautifulSoup
 h = HTMLParser.HTMLParser()
 
 
-versao = '2.0.1'
+versao = '2.0.2'
 addon_id = 'plugin.video.roggerstream'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 addonfolder = selfAddon.getAddonInfo('path')
@@ -34,7 +34,7 @@ fanart = addonfolder + '/fanart.png'
 	
 def  menus():        		
 	dialog = xbmcgui.Dialog()
-	dialog.ok("ROGGER STREAM", "          Assistam a vários canais IPTV do Brasil e do mundo !!!")
+	dialog.ok("ROGGER STREAM", "          Projeto descontinuado por falta de tempo....")
 	addDir('ROGGER STREAM','-',3,'http://i.imgur.com/y22MB94.jpg')
 	
 	
