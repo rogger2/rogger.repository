@@ -27,7 +27,7 @@ import urllib,urllib2,re,xbmcplugin,xbmcgui,xbmc,xbmcaddon,HTMLParser,os,base64
 from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP
 from BeautifulSoup import BeautifulSoup
 h = HTMLParser.HTMLParser()
-versao = '3.0.9'
+versao = '4.0.0'
 addon_id = 'plugin.video.roggerstream'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 addonfolder = selfAddon.getAddonInfo('path')
