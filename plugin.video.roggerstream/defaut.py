@@ -301,7 +301,7 @@ def get_wms():
 	return wms
 
 def get_token():
-    req = urllib2.Request(base64.b64decode('aHR0cDovL2dvZmxpeC45Ni5sdC90b2tlbl9tYXN0ZXIucGhw'))
+    req = urllib2.Request(base64.b64decode('aHR0cDovL2lwdHZici5vcmcvYWRkb25pcHR2YnIvdG9rZW4ucGhw'))
     print req
     response = urllib2.urlopen(req)
     print response
