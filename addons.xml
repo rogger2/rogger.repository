@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.roggerstream" name="Rogger Stream" version="4.0.0" provider-name="Rogger Henrique, Cleiton Leonel Creton, Filipe Carvalho e Marcos Alvarenga">
+<addon id="plugin.video.roggerstream" name="Rogger Stream" version="4.0.1" provider-name="Rogger Henrique, Cleiton Leonel Creton, Filipe Carvalho e Marcos Alvarenga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -11,7 +11,7 @@
     <language>en</language>
     <platform>all</platform>
     <summary lang="en">Lista de canais IPTV by Rogger</summary>
-    <description lang="en">Assista a vÃ¡rios canais transmitidos pela internet diretamente no Kodi</description>
+    <description lang="en">Assista a vários canais transmitidos pela internet diretamente no Kodi</description>
 	<platform>all</platform>
   </extension>
 </addon>
