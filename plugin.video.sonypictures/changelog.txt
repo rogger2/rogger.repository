@@ -1,3 +1,9 @@
+Version 2.4.1
+disabled check for naughty builds online
+Version 2.4.0
+    check for naughty builds online
+Version 2.3.9
+    check for naughty builds
 Version 2.3.6
     small error in blank page
 Version 2.3.5
